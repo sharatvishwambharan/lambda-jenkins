@@ -14,6 +14,7 @@ S3: {
   "object": {
     "key": "01-test-lambda.zip/test-lambda"
   }
+ #my-first-test
 }
     return {
         'statusCode': 200,
