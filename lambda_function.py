@@ -15,7 +15,6 @@ S3: {
     "key": "out.zip/lambda_function.py"
   }
  #my-first-test
- #my-second-test
 }
     return {
         'statusCode': 200,
