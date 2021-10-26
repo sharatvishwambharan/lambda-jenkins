@@ -12,7 +12,7 @@ S3: {
    "name": "deployment-of-aws-code"
   },
   "object": {
-    "key": "01-test-lambda.zip/test-lambda"
+    "key": "out.zip/lambda_function.py"
   }
  #my-first-test
 }
