@@ -14,6 +14,10 @@ S3: {
   "object": {
     "key": "out.zip"
   }
+    environment {
+        AWS_ACCESS_KEY_ID = credentials('aws-access-key-id')
+        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
+    }      
  #my-first-test
  #my-second-test
 }
