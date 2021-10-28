@@ -16,6 +16,7 @@ S3: {
   }     
  #my-first-test
  #my-second-test
+ #this is just for test purpose
 }
     return {
         'statusCode': 200,
