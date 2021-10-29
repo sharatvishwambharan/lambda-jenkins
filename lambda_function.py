@@ -4,7 +4,7 @@ import urllib.parse
 from urllib.parse import urlparse
 from urllib.parse import unquote_plus
 
-session = boto.session('lambda-jenkins')
+session = boto3.session('lambda-jenkins')
 s3_client = session.client('s3')
 s3_client.upload_file('lambda_function.py','deployment-of-aws-code','out.zip')
 
