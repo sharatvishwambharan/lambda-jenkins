@@ -19,7 +19,7 @@ def handler(event, context):
          #my-first-test
          #this is for test purpose
         }
-        return {
-            'statusCode': 200,
-            'body': json.dumps('Hello from Lambda!')
-        }
+        return (
+            {'statusCode': 200,
+            'body': json.dumps('Hello from Lambda!')}
+        )
