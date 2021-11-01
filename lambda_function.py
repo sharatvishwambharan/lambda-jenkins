@@ -3,8 +3,8 @@ import boto3
 import urllib.parse
 from urllib.parse import urlparse
 from urllib.parse import unquote_plus
-s3 = boto3.client ('s3')
-s3_client.upload_file('lambda_function.py','deployment-of-aws-code','out.zip')
+s3 = boto3.resource ('s3')
+bucket = s3.Bucket('deployment-of-aws-code')
 
 def handler(event, context):
     # TODO implement
