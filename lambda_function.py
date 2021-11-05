@@ -14,7 +14,7 @@ def handler(event, context):
            "name": "deployment-of-aws-code"
           },
           "object": {
-            "key": "deployment-of-aws-code/out.zip"
+            "key": "out.zip"
           }     
          #my-first-test
          #this is for test purpose
